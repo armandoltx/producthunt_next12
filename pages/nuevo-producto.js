@@ -1,15 +1,15 @@
 import Layout from '../components/layouts/Layout'
 
 
-const Nosotros = () => {
+const NuevoProducto = () => {
   return (
     <div>
       <Layout>
-        <h1>Nosotros</h1>
+        <h1>Nuevo Producto</h1>
       </Layout>
     </div>
 
   )
 }
 
-export default Nosotros
+export default NuevoProducto
