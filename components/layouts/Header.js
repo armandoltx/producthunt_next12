@@ -1,0 +1,25 @@
+import React from 'react';
+import Buscar from '../ui/Buscar';
+
+const Header = () => {
+  return (
+    <header>
+      <div>
+        <div>
+          <p>P</p>
+
+          {/* Buscador aqui */}
+          <Buscar />
+
+          {/* Nav aqui */}
+        </div>
+        <div>
+          {/* Menu de admin */}
+        </div>
+      </div>
+
+    </header>
+  );
+};
+
+export default Header;
